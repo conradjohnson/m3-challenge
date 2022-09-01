@@ -129,6 +129,7 @@ function generatePassword(passwordObj) {
         passwordObj.text += charPoolArray[index];
     }
 
+  // return generated password
   return(passwordObj.text);
 }
 
